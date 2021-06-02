@@ -11,7 +11,7 @@ function Footer() {
             <GlobeIcon className="h-5 text-green-700" /> Carbon neutral since 2007
         </div>
         <div className="flex justify-center space-x-5 whitespace-nowrap md:justify-self-start ">
-            <p className="link">Advertising</p>
+            <p className="link">About</p>
             <p className="link">Business</p>
             <p className="link">How Search works</p>
         </div> 

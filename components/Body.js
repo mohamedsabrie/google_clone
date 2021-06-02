@@ -22,7 +22,7 @@ function Body() {
             width={300}
             />
             <div className="flex w-full items-center border rounded-full mt-5 px-5 py-3  hover:shadow-lg focus-within:shadow-lg max-w-md  sm:max-w-xl md:max-w-2xl">
-                <SearchIcon className="h-5 mr-3 text-gray-500 cursor-pointer" />
+                <SearchIcon onClick ={searchHandler} className="h-5 mr-3 text-gray-500 cursor-pointer" />
                 <input type="text" className=" flex-grow focus:outline-none" ref={inputRef} />
                 <MicrophoneIcon className="h-5" />
             </div>
